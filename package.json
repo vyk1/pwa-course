@@ -1,0 +1,9 @@
+{
+    "name": "pwa",
+    "scripts": {
+        "web-push": "./node_modules/web-push/cli.js",
+        "wpgvk": "web-push generate-vapid-keys --json",
+        "wpgvk-json": "web-push generate-vapid-keys --json > vapid.json",
+        "push": "node push-server.js"
+    }
+}
