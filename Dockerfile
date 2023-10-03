@@ -16,5 +16,7 @@ RUN npm install
 COPY . .
 
 EXPOSE 8000
-# CMD [ "node", "push-server.js" ]
-CMD ["npm", "run", "wpgvk"]
+# configure server
+# CMD ["npm", "run", "wpgvk"] 
+# send push
+CMD [ "node", "push-server.js" ] 

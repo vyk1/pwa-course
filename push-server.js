@@ -11,10 +11,10 @@ webpush.setVapidDetails(
 );
 
 const pushSubscription = {
-  endpoint: 'https://fcm.googleapis.com/fcm/send/cldZxQiy4po:APA91bHfAsEnvwrKhdF4E1Ek_KwG7l_xRAxXEFJX1WDsGlMFB9OEONYnh19GBs7I_3RLcp6eemPcJLSvoWLEFzpxmZKJh5A_LdlweLbPXX36UiT4MT_8I8bBoJlPV4Kfxu0P9cn_K2FP',
+  endpoint: 'https://updates.push.services.mozilla.com/wpush/v2/gAAAAABlHG3pBzhNvR0647iiP9PCQjD9b45Yj79gKRa_AR7LmRjGCSenw7OZJ03HcqxxA2qYP-k6tpyw78Y4wHoLptsFoDyzNfjb1xX_yj-T002OG2mCax8-ZnhUF063LLAUZ8HVSpwiWtigThRSP0Kb7lDF999xWGWI3VnFPARiGOO7gHVPdCY',
   keys: {
-    auth: 'zQm_SqVjAWXEgkzmDKNmNQ==',
-    p256dh: 'BCycPnH5W7FOTuj8u079SBwTRpso_DrS5teX4jNJcdvZxCDOXUj9OfLc1f5y4yJfqJA0b49E9Y0JtLszpHuxQGA='
+    auth: '-4JaXdpqmFAQu6P4fScUSg',
+    p256dh: 'BMbt9kKtlbwctngA2pYAVokCDeW1OjpyRPXGibwbv9LFR0lAK85eVWd0-jRTtLIoxiwICZPlgJ2CMWlIp-h2Tw0'
   }
 };
 

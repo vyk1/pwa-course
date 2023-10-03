@@ -1,0 +1,11 @@
+## Front
+
+Serve with `python3 -m http.server 8001`
+
+> Use localhost:8001 instead of 0.0.0.0:8001 (https://stackoverflow.com/questions/52269746/service-worker-is-not-supported-in-chrome-69-0-3497-81)
+
+## How to use
+
+1. Configure the backend (with Dockers' wpgvk command)
+2. Get the endpoint from the frontend console.log, add it to server.js
+3. run the push server with node

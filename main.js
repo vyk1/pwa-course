@@ -2,6 +2,7 @@
 // Progressive Enhancement (SW supported)
 // if ('serviceWorker' in navigator) {
 if (navigator.serviceWorker) {
+  console.log('SW supported');
 
   // Convert key to Uint8Array
   function urlBase64ToUint8Array(base64String) {
@@ -20,10 +21,10 @@ if (navigator.serviceWorker) {
   }
 
   // Register the SW
-  navigator.serviceWorker.register('/sw.js').then((registration) => {
+  navigator.serviceWorker.register('./sw.js').then((registration) => {
 
     // Server public key
-    let pubKey = 'BA_kcDJ9MyfRQ1QBYmrrBv-PzcUfmBFfm_9UebAp1nm5WK5VFgUgLYsMgda0539pVuUXMf3O4gHfUI5kjHGNteM';
+    let pubKey = 'BIjavBdObE38JV9mUJ-07dTCqualeQ2Zuwy63b-d06SyHvagwBRZ27ckbVbFI3Tpxr6K7kGJud2RKp-UfL8iOpg';
 
     registration.pushManager.getSubscription().then((sub) => {
 
@@ -41,4 +42,6 @@ if (navigator.serviceWorker) {
 
   }).catch(console.log);
 
+}else{
+  console.log('SW not supported', navigator);
 }
